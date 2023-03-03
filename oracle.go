@@ -1,5 +1,5 @@
 // connect oracle
-package database
+package oracle
 
 import (
 	"database/sql"
