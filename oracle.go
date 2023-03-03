@@ -23,7 +23,7 @@ func InitDB() (*sql.DB, error) {
 	db.SetMaxOpenConns(10)
 	db.SetMaxIdleConns(10)
 
-	fmt.Println("Connected to database")
+	fmt.Println("Connected to Oracle")
 	return db, nil
 }
 
